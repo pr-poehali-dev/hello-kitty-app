@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Generate meow sound",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "audio": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
